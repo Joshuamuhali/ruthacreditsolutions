@@ -1,14 +1,14 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Phone, Mail, Globe, ArrowRight } from 'lucide-react'
+import { Phone, Mail, ArrowRight } from 'lucide-react'
 import { Reveal } from './reveal'
 
 const channels = [
   {
     icon: Phone,
     label: 'Call us',
-    lines: ['0977 408230', '0966 408230', '+260 773 162468'],
+    lines: ['+260 977 408230', '+260 966 408230', '+260 773 162468'],
     href: 'tel:+260773162468',
   },
   {
@@ -16,12 +16,6 @@ const channels = [
     label: 'Email us',
     lines: ['kashempa@rutharcredit.com'],
     href: 'mailto:kashempa@rutharcredit.com',
-  },
-  {
-    icon: Globe,
-    label: 'Visit us online',
-    lines: ['www.ruthacredit.com'],
-    href: 'https://www.ruthacredit.com',
   },
 ]
 

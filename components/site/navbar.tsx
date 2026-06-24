@@ -32,9 +32,9 @@ export function Navbar() {
           : 'border-b border-transparent bg-transparent'
       }`}
     >
-      <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 lg:px-8">
-        <a href="#home" aria-label="Rutha Credit Solutions home">
-          <Logo />
+       <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-5 lg:px-8">
+        <a href="#home" aria-label="Rutha Credit Solutions home" className="flex items-center overflow-hidden">
+          <Logo variant="navbar" />
         </a>
 
         <div className="hidden items-center gap-8 md:flex">

@@ -1,4 +1,4 @@
-import { Phone, Mail, Globe } from 'lucide-react'
+import { Phone, Mail } from 'lucide-react'
 import { Logo } from './logo'
 
 const nav = [
@@ -14,7 +14,7 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-5 py-14 lg:px-8">
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
           <div className="lg:col-span-2">
-            <Logo />
+            <Logo variant="footer" />
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-muted-foreground">
               A trusted financial services provider offering flexible,
               accessible lending solutions to individuals and businesses across
@@ -58,12 +58,6 @@ export function Footer() {
                   className="hover:text-brand"
                 >
                   kashempa@rutharcredit.com
-                </a>
-              </li>
-              <li className="flex items-center gap-2">
-                <Globe className="h-4 w-4 text-brand" />
-                <a href="https://www.ruthacredit.com" className="hover:text-brand">
-                  www.ruthacredit.com
                 </a>
               </li>
             </ul>
